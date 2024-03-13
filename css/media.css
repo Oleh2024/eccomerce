@@ -1,0 +1,210 @@
+.display-center {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width: 1260px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .container,
+  .container-footer {
+    width: 960px;
+  }
+  .main-menu ul {
+    justify-content: space-between;
+  }
+  .main-menu ul > li {
+    width: auto;
+  }
+  .card .card-title {
+    font-size: 20px;
+  }
+  .lifestyle-box .lifestyle-title {
+    min-height: 110px;
+  }
+  .form-footer .subscibe-input {
+    width: 313px;
+  }
+  .row-footer {
+    gap: 30px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .container,
+  .container-footer {
+    width: 730px;
+  }
+  .mobile-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .burger-menu {
+    display: flex;
+  }
+  .main-menu > ul {
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    overflow: auto;
+    transform: translateX(-100%);
+    transition: all 0.3s;
+  }
+  .main-menu > ul > li {
+    margin-bottom: 10px;
+  }
+  .main-menu > ul.active {
+    transform: translateX(0%);
+  }
+  .col-2x-d {
+    width: 50%;
+  }
+  .top-collection-row {
+    flex-wrap: wrap;
+  }
+  .top-collection-row .top-collection-content-column {
+    width: 100%;
+    order: 2;
+  }
+  .top-collection-row .top-collection-image-column {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .subscribe-form .subscibe-input {
+    width: 400px;
+  }
+  .lifestyle-row {
+    display: block;
+  }
+  .lifestyle-row .lifestyle-column {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .lifestyle-box .lifestyle-title {
+    min-height: auto;
+  }
+  .row-footer {
+    gap: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+  }
+  .row-footer .column-subscribe,
+  .row-footer .column-footer {
+    flex: 1 0 50%;
+    margin-bottom: 20px;
+  }
+  .subscribe-form .subscibe-input {
+    width: auto;
+  }
+  .bottom-footer .bottom-footer-wrap {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .filter {
+    flex-direction: column;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .container,
+  .container-footer {
+    width: 540px;
+  }
+  .bunner {
+    height: 388px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  .container,
+  .container-footer {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .col-1x-p {
+    width: 100%;
+  }
+  .subscribe-form {
+    display: block;
+    width: 100%;
+  }
+  .subscribe-form .subscibe-input {
+    width: calc(100%-20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .subscribe-form .subscribe-submit {
+    margin-left: 10px;
+  }
+  .row-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row-footer .column-subscribe,
+  .row-footer .column-footer {
+    flex: 0 0 auto;
+  }
+  .bottom-footer .bottom-footer-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyrite {
+    margin-bottom: 20px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .bunner {
+    padding-left: 10px;
+  }
+  .top-collection-row .top-collection-list li {
+    padding: 15px 0px;
+  }
+  .top-collection-row .top-collection-list li a {
+    font-size: 24px;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .main-menu > ul {
+    right: 20%;
+  }
+  .bunner {
+    padding-left: 0%;
+  }
+  .link {
+    padding: 10px 30px;
+  }
+  .title-section {
+    padding: 20px 20px;
+    font-size: 24px;
+  }
+  .lifestyle-box .lifestyle-title {
+    font-size: 20px;
+  }
+  .lifestyle-box .lifestyle-text {
+    height: auto;
+  }
+}

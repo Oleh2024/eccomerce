@@ -1,0 +1,33 @@
+@font-face {
+   font-family: "coolvetica";
+   src: url('../fonts/coolvetica/coolvetica-rg.otf');
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "inter";
+   src: url('../fonts/inter/Inter-Regular.otf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "inter";
+   src: url('../fonts/inter/Inter-Bold.otf') format('truetype');
+   font-weight: 600;
+   font-style: normal;
+}
+@font-face {
+   font-family: "lexend";
+   src: url('../fonts/Lexend/static/Lexend-Regular.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "lexend";
+   src: url('../fonts/Lexend/static/Lexend-Light.ttf') format('truetype');
+   font-weight: 300;
+   font-style: normal;
+}
+
+
+
